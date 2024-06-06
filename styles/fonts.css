@@ -1,0 +1,406 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../assets/fonts/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Light.woff2') format('woff2'),
+        url('../assets/fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../assets/fonts/Manrope-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Manrope-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../assets/fonts/Manrope-ExtraLight.woff2') format('woff2'),
+        url('../assets/fonts/Manrope-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../assets/fonts/Manrope-ExtraBold.woff2') format('woff2'),
+        url('../assets/fonts/Manrope-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../assets/fonts/Manrope-Light.woff2') format('woff2'),
+        url('../assets/fonts/Manrope-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../assets/fonts/Manrope-Medium.woff2') format('woff2'),
+        url('../assets/fonts/Manrope-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../assets/fonts/Manrope-SemiBold.woff2') format('woff2'),
+        url('../assets/fonts/Manrope-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../assets/fonts/Manrope-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Manrope-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-LightItalic.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-Light.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-Medium.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-MediumItalic.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-Regular.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-SemiBoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-SemiBold.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-ThinItalic.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-Thin.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-BlackItalic.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-Black.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-Bold.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-ExtraBold.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-ExtraLightItalic.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-Italic.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-ExtraLight.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-Bold.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-ExtraBold.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed ExLight';
+    src: url('../assets/fonts/BarlowSemiCondensed-ExtraLightItalic.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed ExLight';
+    src: url('../assets/fonts/BarlowSemiCondensed-ExtraLight.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-Light.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-Italic.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-Medium.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-LightItalic.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-MediumItalic.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-SemiBold.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-Regular.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-Thin.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-SemiBoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-ThinItalic.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-BlackItalic.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('../assets/fonts/BarlowSemiCondensed-Black.woff2') format('woff2'),
+        url('../assets/fonts/BarlowSemiCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
